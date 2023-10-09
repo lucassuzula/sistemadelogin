@@ -16,7 +16,7 @@ body{
     margin: 0px;
     padding: 0px;
     max-width: 1920px;
-    min-height: 100vh; /*remova essa linha para o site ter barra de rolagem, deixei só para visualização da cor de fundo*/
+    min-height: 100vh;
     background: linear-gradient(#292929, #131313);
 }
 
@@ -131,7 +131,6 @@ a{
     filter: invert(100%);
 }
 
-/*não mexe nesse caralho aqui em baixo, é a barra de rolagem da pagina*/
 ::-webkit-scrollbar {
     width: 3px;
     height: 3px;
