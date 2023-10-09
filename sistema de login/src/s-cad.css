@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+
+p{
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    max-width: 1920px;
+    min-height: 100vh; /*remova essa linha para o site ter barra de rolagem, deixei só para visualização da cor de fundo*/
+    background: linear-gradient(#292929, #131313);
+}
+
+.area-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#131313, #292929);
+    width: 400px;
+    height: 550px;
+    padding: 30px;
+    box-shadow: 5px 5px 35px #fff00f;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
+
+#nmr{
+    margin-top: 20px;
+    background-color: #353535;
+    padding-left: 10px;
+    color: #fff;
+    outline:none;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.login img{
+    width: 90px;
+    height: auto;
+}
+
+#nmr::placeholder{
+    color: #424242;
+    font-size: 14px;
+}
+
+#btn-entrar{
+    margin-top: 20px;
+    height: 40px;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: rgb(10, 10, 10, 0);
+    border-color: #fff00f;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#btn-entrar:hover{
+    background-color: #fff00f;
+    color: #292929;
+}
+
+.social_media{
+    margin-left: 38%;
+    display: flex;
+    gap: 10px;
+}
+
+.social_media img{
+    width: 100%;
+    transition: .4s;
+}
+
+.social_media button{
+    background-color: rgb(10, 10, 10, 0);
+    width: 15%;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+.social_media img:hover{
+    transform: scale(1.2);
+}
+
+h2{
+    font-size: 24px;
+    font-family:'Arial';
+    color: #fff;
+}
+
+p{
+    font-family:'Arial';
+    color: #fff;
+}
+
+a{
+    font-family:'Arial';
+    color: #fff;
+}
+
+::-ms-reveal{
+    filter: invert(100%);
+}
+
+/*não mexe nesse caralho aqui em baixo, é a barra de rolagem da pagina*/
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #000;
+    padding: 2px;
+}
+  
+::-webkit-scrollbar-thumb{
+    background-color: #fff00f;
+}
